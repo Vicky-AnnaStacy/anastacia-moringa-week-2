@@ -19,9 +19,17 @@ let month = number(document.getElementById("Month").value);
 let day = number(document.getElementById("day").value);
 let genders = document.getElementById("gender");
 
-
+function gettingGender(){
+for (let gender of genders){
+    if(gender.checked){
+        return gender.value;
+    }
+}
+}
+ 
+let valueOfGender = gettingGender();
+console.log(valueOfGender);
  }
-
 
 
  
