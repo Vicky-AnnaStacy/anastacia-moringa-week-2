@@ -49,7 +49,25 @@ function checkMonth(){
 
     // specific day of birthformula
     let Day_Of_The_Week=Math.floor((((number(year.slice(0,2))/4)-2*Number(year.slice(0,2))-1)+((5*Number(year.slice(2,4))/4))+((26*(month+1)/10))+day)%7);
- }
+let position;
+if (dayOfWeek== 0) {
+    position = 6;
+}else{
+    position = dayOfWeek-1;
+}
+console.log(position);
+if (valueOfGender == "male" && validMonth && validDay){
+    document.querySelector("strong").textContent = "Hello!!" +" " + actualDays[position]+ "is the day you were born" +"and your Akan Name is " + Male_Names[position]; 
+    return false;
+}else if (valueOfGender=="female " && validMonth && validDay){
+    document.querySelector("strong").textContent = "Hello!!" +" " + actualDays[position]+ "is the day you were born" +"and your Akan Name is " + Female_Names[position];
+    return false;
+}else{
+alert ("invalid day or month!! TRY AGAIN");
+}
+
+
+}
 
 
 
