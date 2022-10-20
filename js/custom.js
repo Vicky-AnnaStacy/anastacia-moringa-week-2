@@ -29,7 +29,38 @@ for (let gender of genders){
  
 let valueOfGender = gettingGender();
 console.log(valueOfGender);
+function checkMonth(){
+    if(month<=0 || month> 12 ){
+        return false;
+    }else{
+        return true;
+    }
+}
+ function checkDay(){
+    if(month ===2 && Number (year)%4 === 0){
+        if(day>28 || day <1){
+            return false;
+        }else if(month===2 && day >29){
+            return false;
+        }else if(month===2 && day < 1){
+          return false
+        }else {
+            return true;
+        }
+        }else if (day <=0 || day > 31){
+            return false;
+        }else{
+            return true;
+        }
+        
+    }
  }
+
+
+
+
+
+
 
 
  
