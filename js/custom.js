@@ -5,7 +5,6 @@ const Day_Of_The_Week = ["Sunday","Monday", "Tuesday", "Wednesday","Thursday","F
 //variables for validation
 let validMonth =checkMonth();
 let validDay = checkDay();
-
  function Name(){
 let  year =document.getElementById("year").value;
 let month = number(document.getElementById("Month").value);
@@ -47,6 +46,9 @@ function checkMonth(){
         }
         
     }
+
+    // specific day of birthformula
+    let Day_Of_The_Week=Math.floor((((number(year.slice(0,2))/4)-2*Number(year.slice(0,2))-1)+((5*Number(year.slice(2,4))/4))+((26*(month+1)/10))+day)%7);
  }
 
 
