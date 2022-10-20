@@ -1,6 +1,6 @@
-const Male_Names = ["Kwasi","Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame" ];
-const Female_Names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama" ];
-const Day_Of_The_Week = ["Sunday","Monday", "Tuesday", "Wednesday","Thursday","Friday","Saturday" ];
+let Male_Names = ["Kwasi","Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame" ];
+let Female_Names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama" ];
+let Day_Of_The_Week = ["Sunday","Monday", "Tuesday", "Wednesday","Thursday","Friday","Saturday" ];
  
 //variables for validation
 let validMonth =checkMonth();
