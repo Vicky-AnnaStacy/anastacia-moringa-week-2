@@ -13,5 +13,17 @@ var century;
 var day;
 var DayOfWeek;
 var akhanName = null;
+ function Name(){
+let  year =document.getElementById("year").value;
+let month = number(document.getElementById("Month").value);
+let day = number(document.getElementById("day").value);
+let genders = document.getElementById("gender");
 
 
+ }
+
+
+
+ 
+    
+ 
