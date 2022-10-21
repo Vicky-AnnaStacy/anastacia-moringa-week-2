@@ -5,7 +5,7 @@ Web application that takes a user's birthday and calculates the day of the week 
 ## Author(s) information.
 Anastacia Wainaina
 ## Setup instructions - includes any scripts that need to be run if necessary.
-
+http://127.0.0.1:5500/index.html
 ## BDD.
 As a user, I would like to;
 See a  small description of what the application does on the landing page.
