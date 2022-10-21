@@ -14,12 +14,12 @@ Choose what gender I am.
 Click the submit button to see what my Akan name would be
 
 ## Technologies used.
--HTML
--CSS
--BOOTSTRAP
--JAVASCRIPT
+HTML
+CSS
+BOOTSTRAP
+JAVASCRIPT
 ## Contact information.
--0717477588
--ngendowainaina@gmail.com
+Mobile Number - 0717477588
+Email -ngendowainaina@gmail.com
 ## License and Copyright information.
 @2022 Wainaina
