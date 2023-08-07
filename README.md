@@ -12,7 +12,8 @@ See a  small description of what the application does on the landing page.
 Enter my birthday through a form 
 Choose what gender I am.
 Click the submit button to see what my Akan name would be
-
+## Live stream
+https://github.com/Vicky-AnnaStacy/anastacia-moringa-week-2
 ## Technologies used.
 HTML
 CSS
